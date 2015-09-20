@@ -1,0 +1,13 @@
+{
+  "name": "Slack Inspirational Quotes.",
+  "description": "A Bot to retrieve an inspirational quote or post and inspiration quote once per day.",
+  "repository": "https://github.com/kbeesley-dev/inspire-slack-lawrencecoders",
+  "env": {
+    "SLACK_WEBHOOK": {
+      "description": "Incoming Webhook URL of Slack.",
+      "value": ""
+    }
+  },
+  "keywords": ["node", "slack_bot"],
+  "addons": ["scheduler:standard"]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "inspire-slack-lawrencecoders",
+  "version": "0.0.1",
+  "description": "scrape inspirational quotes for slack",
+  "main": "slackserve.js",
+  "author": "Kevin",
+  "dependencies": {
+    "body-parser": "^1.14.0",
+    "cheerio": "latest",
+    "express": "latest",
+    "request": "latest",
+    "slack-client": "^1.4.1"
+  }
+}
