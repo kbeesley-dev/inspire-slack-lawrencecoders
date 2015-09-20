@@ -20,7 +20,7 @@ app.use('/inspireme',function(req,res,next) {
             console.log(quote);
             var payload = {
                 "text": "*" + quote.quote + "* - _" + quote.author + "_",
-                "icon_emoji": ":sunrise:"
+                "icon_emoji": ":sunny:"
             };
             res.json(payload);
             next();
