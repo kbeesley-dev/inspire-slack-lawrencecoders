@@ -37,6 +37,8 @@ function isValidTriggerWord(triggerWord)
 
 app.use('/inspireme',function(req,res,next) {
     console.log('inspireme:');
+    console.log('incominghooks:' + slackConfig.incomingSlackToken);
+                
     var reqToken = req.body.token;
     var reqTriggerWord = req.body.trigger_word;
     
