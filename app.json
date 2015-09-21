@@ -3,11 +3,15 @@
   "description": "A Bot to retrieve an inspirational quote or post and inspiration quote once per day.",
   "repository": "https://github.com/kbeesley-dev/inspire-slack-lawrencecoders",
   "env": {
-    "SLACK_WEBHOOK": {
-      "description": "Incoming Webhook URL of Slack.",
-      "value": ""
+    "SLACK_POSTINGWEBHOOK": {
+      "description": "Array of Incoming Webhook URL of Slack to Post Quotes via a Schedule.",
+      "value": []
+    },
+    "SLACK_INCOMINGTOKEN": {
+      "description": "Array of Outgoing Webhook Tokens from Slack to Serve up Inspirational Quotes on Demand.",
+      "value": []
     }
   },
-  "keywords": ["node", "slack_bot"],
+  "keywords": ["node", "slack_incoming_hook", "slack_outgoing_hook", "inspiration", "quotes", "lawrence_coders"],
   "addons": ["scheduler:standard"]
 }

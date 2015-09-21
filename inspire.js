@@ -29,7 +29,7 @@ module.exports = {
                                 callback(quoteRet);
                             }
                         }
-                    }
+                    } else { console.log(error); }
                 });
         }
 };
